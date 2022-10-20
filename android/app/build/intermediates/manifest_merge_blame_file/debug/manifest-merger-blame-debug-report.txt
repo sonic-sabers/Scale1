@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.scalerich1"
+4    android:versionCode="11"
+5    android:versionName="1.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:5:1-60
+13-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:5:18-58
+14
+15    <uses-feature
+15-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:6:1-81
+16        android:name="android.hardware.camera"
+16-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:6:15-53
+17        android:required="false" />
+17-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:6:54-78
+18    <uses-feature
+18-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:7:1-87
+19        android:name="android.hardware.camera.front"
+19-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:7:15-59
+20        android:required="false" />
+20-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:7:60-84
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/sonic-sabers/.gradle/caches/transforms-3/bae35ff68c27edf412f3700024be0ffe/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.125.0] /Users/sonic-sabers/.gradle/caches/transforms-3/bae35ff68c27edf412f3700024be0ffe/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+23
+24    <queries>
+24-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+25        <intent>
+25-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+26            <action android:name="android.media.action.IMAGE_CAPTURE" />
+26-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+26-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+30-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+31
+32    <application
+32-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:8:5-27:19
+33        android:name="com.scalerich1.MainApplication"
+33-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:9:7-38
+34        android:allowBackup="false"
+34-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:13:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.7.0] /Users/sonic-sabers/.gradle/caches/transforms-3/b2197c574567c595cb9e45a5d8e1862d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:11:7-41
+38        android:label="@string/app_name"
+38-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:10:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:12:7-52
+40        android:theme="@style/AppTheme"
+40-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:14:7-38
+41        android:usesCleartextTraffic="true" >
+41-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/debug/AndroidManifest.xml:8:9-44
+42        <activity
+42-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/debug/AndroidManifest.xml:11:9-111
+43            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+43-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/debug/AndroidManifest.xml:11:19-83
+44            android:exported="false" />
+44-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/debug/AndroidManifest.xml:11:84-108
+45        <activity
+45-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:15:7-26:18
+46            android:name="com.scalerich1.MainActivity"
+46-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:16:9-37
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+47-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:18:9-118
+48            android:exported="true"
+48-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:21:9-32
+49            android:label="@string/app_name"
+49-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:17:9-41
+50            android:launchMode="singleTask"
+50-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:19:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:20:9-51
+52            <intent-filter>
+52-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:22:9-25:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:23:13-65
+53-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:23:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:24:13-73
+55-->/Users/sonic-sabers/Desktop/Projs/New2/appscalerich/android/app/src/main/AndroidManifest.xml:24:23-70
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+60            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+60-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+61            android:authorities="com.scalerich1.provider"
+61-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+62            android:exported="false"
+62-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+63            android:grantUriPermissions="true" >
+63-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+64            <meta-data
+64-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+66                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+66-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+67        </provider>
+68
+69        <activity
+69-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+70            android:name="com.yalantis.ucrop.UCropActivity"
+70-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+71            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+71-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+72
+73        <provider
+73-->[:react-native-webview] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+74            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+74-->[:react-native-webview] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+75            android:authorities="com.scalerich1.fileprovider"
+75-->[:react-native-webview] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+76            android:exported="false"
+76-->[:react-native-webview] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+77            android:grantUriPermissions="true" >
+77-->[:react-native-webview] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+78            <meta-data
+78-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+80                android:resource="@xml/file_provider_paths" />
+80-->[:react-native-image-crop-picker] /Users/sonic-sabers/Desktop/Projs/New2/appscalerich/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+81        </provider>
+82        <provider
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+84            android:authorities="com.scalerich1.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/sonic-sabers/.gradle/caches/transforms-3/240a630830214d0cc45e60bc7bdecea8/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sonic-sabers/.gradle/caches/transforms-3/09700f3721583a6350c6012dfc152019/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sonic-sabers/.gradle/caches/transforms-3/09700f3721583a6350c6012dfc152019/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sonic-sabers/.gradle/caches/transforms-3/09700f3721583a6350c6012dfc152019/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+92        </provider>
+93    </application>
+94
+95</manifest>
